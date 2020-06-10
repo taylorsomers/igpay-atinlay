@@ -1,7 +1,8 @@
 // Business Logic:
 
 function translate(input) {
-  if (((input === "a") || (input === "A") || (input === "e") || (input === "E") || (input === "i") || (input === "I") || (input === "o") || (input === "O") || (input === "u") || (input === "U")) && ((input === "a") || (input === "A") || (input === "i") || (input === "I") || (input === "o") || (input === "O"))) {
+  charArray = input.split("");
+  if ((charArray.length === 1) && ((input === "a") || (input === "A") || (input === "i") || (input === "I") || (input === "o") || (input === "O"))) {
     return "1";
   } else {
     return input;
