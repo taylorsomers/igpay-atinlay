@@ -51,6 +51,11 @@
     * Example Output: "B"
 
   * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o".
+    * Example Input: "a"
+    * Example Output: "1"
+    * Example Input: "e"
+    * Example Output: "e"
+
 
   * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o", regardless of capitalization.
   
