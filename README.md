@@ -26,7 +26,6 @@
 
 ## Specifications
 
-
   * The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
     * Example Input: "3"
     * Example Output: "3"
