@@ -27,10 +27,12 @@
 ## Specifications
 
   * The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
-    * Example Input: "3"
-    * Example Output: "3"
+    * Example Input: "1"
+    * Example Output: "1"
 
   * The program does nothing to single-letter alphabetical characters that are consonants.
+    * Example Input: "b"
+    * Example Output: "b"
 
   * The program does nothing to single-letter alphabetical characters that are consonants, regardless of capitalization.
 
