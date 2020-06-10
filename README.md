@@ -56,8 +56,11 @@
     * Example Input: "e"
     * Example Output: "e"
 
-
   * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o", regardless of capitalization.
+    * Example Input: "A"
+    * Example Output: "1"
+    * Example Input: "E"
+    * Example Output: "E"
   
   * The program adds "way" to single-letter words that consist of a vowel.
     * Example Input: "i"
