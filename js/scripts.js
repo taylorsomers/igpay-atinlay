@@ -1,8 +1,13 @@
 // Business Logic:
 
 function translate(input) {
-  return input;
+  if ((input === "a") || (input === "e") || (input === "i") || (input === "o") || (input === "u")) {
+    return "1";
+  } else {
+    return input;
+  }
 }
+
 // End Business Logic
 
 // UI Logic
