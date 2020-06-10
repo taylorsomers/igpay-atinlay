@@ -26,7 +26,77 @@
 
 ## Specifications
 
-  * [List of behaviors with an input/output example for each.]
+  * The program recognizes vowels to which Pig Latin rules apply (a, e, i, o, u).
+
+  * The program recognizes vowels to which Pig Latin rules apply, regardless of capitalization (a, A; e, E; i, I; o, O; u, U).
+
+  * The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+    * Example Input: "3"
+    * Example Output: "3"
+
+  * The program does nothing to single-letter alphabetical characters that are consonants.
+
+  * The program does nothing to single-letter alphabetical characters that are consonants, regardless of capitalization.
+
+  * The program adds "way" to single-letter words that consist of a vowel.
+    * Example Input: "i"
+    * Example Output: "iway"
+
+  * The program adds "way" to single-letter words that consist of a vowel, regardless of capitalization.
+    * Example Input: "I"
+    * Example Output: "Iway"
+
+  * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o".
+
+  * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o", regardless of capitalization.
+
+  * If a multiple-letter word begins with a consonant, the program removes the first letter, places it at the end of the word, and adds "ay", regardless of upper- or lower-case capitalization of the first letter of the word.
+
+  * If a multiple-letter word begins with a consonant, the program removes the first letter, places it at the end of the word, and adds "ay", regardless of upper- or lower-case capitalization of the entire word.
+
+  * If a multiple-letter word begins with a consonant, the program removes the first letter, places it at the end of the word, and adds "ay", regardless of mixed capitalization.
+
+  * The program adds "way" to multiple-letter words that begin with a vowel.
+
+  * The program adds "way" to multiple-letter words that begin with a vowel, regardless of capitalization.
+
+  * If a word has "q" as its second letter, the program will remove the first three letters of the word, place them at the end of the word, and add "ay".
+
+  * If a word has "q" as its second letter, the program will remove the first three letters of the word, place them at the end of the word, and add "ay", regardless of upper- or lower-case capitalization of the first letter of the word.
+
+  * If a word has "q" as its second letter, the program will remove the first three letters of the word, place them at the end of the word, and add "ay", regardless of upper- or lower-case capitalization of the entire word.
+
+  * If a word has "q" as its second letter, the program will remove the first three letters of the word, place them at the end of the word, and add "ay", regardless of mixed capitalization
+
+  * If a word begins with "qu", the program will remove the first two letters, place them at the end of the word, and add "ay".
+
+  * If a word begins with "qu", the program will remove the first two letters, place them at the end of the word, and add "ay", regardless of upper- or lower-case capitalization of the first letter of the word.
+
+  * If a word begins with "qu", the program will remove the first two letters, place them at the end of the word, and add "ay", regardless of upper- or lower-case capitalization of the entire word.
+
+  * If a word begins with "qu", the program will remove the first two letters, place them at the end of the word, and add "ay", regardless of upper- or lower-case capitalization of mixed capitalization.
+
+  * The program treats "y" as a consonant whenever it is at the beginning of a word.
+
+  * The program treats "y" as a consonant whenever it is at the beginning of a word, regardless of upper- or lower-case capitalization of the first letter of the word.
+
+  * The program treats "y" as a consonant whenever it is at the beginning of a word, regardless of upper- or lower-case capitalization of the entire word.
+
+  * The program treats "y" as a consonant whenever it is at the beginning of a word, regardless of upper- or lower-case capitalization of mixed capitalizatioin.
+
+  * If a word begins with multiple consonants, the program removes all consonants preceding the first vowel, places them at the end of the word, and adds "ay".
+
+  * If a word begins with multiple consonants, the program removes all consonants preceding the first vowel, places them at the end of the word, and adds "ay", regardless of upper- or lower-case capitalization of the first letter of the word.
+
+  * If a word begins with multiple consonants, the program removes all consonants preceding the first vowel, places them at the end of the word, and adds "ay", regardless of upper- or lower-case capitalization of the entire word.
+
+  * If a word begins with multiple consonants, the program removes all consonants preceding the first vowel, places them at the end of the word, and adds "ay", regardless of mixed capitalization.
+
+  * If the first letter of a word is a capitalized consonant and the following letters are all lower-case, the program will remove the first letter, transform it to lower-case, place it at the end of the word, add "ay" to the end of the word, and capitalize the first letter of the resulting Pig Latin word.
+
+  * If the first letter of a word is a capitalized "Q" and the following letters are all lower-case, the program will remove the first two letters, transform the first letter to lower-case, place the first two letters at the end of the word, add "ay" to the end of the word, and capitalize the first letter of the resulting Pig Latin word.
+
+  * If the first letter of a word is capitalized, the second letter of the word is "q", and the remaining letters of the word are lower-case, the program will remove the first three letters, transform the first letter to lower-case, place the first three letters at the end of the word, add "ay" to the end of the word, and capitalize the first letter of the resulting Pig Latin word.
 
 ## Known Bugs
 
