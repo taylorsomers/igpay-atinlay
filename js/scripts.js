@@ -4,6 +4,8 @@ function translate(input) {
   charArray = input.split("");
   if ((charArray.length === 1) && ((input === "a") || (input === "A") || (input === "i") || (input === "I") || (input === "o") || (input === "O"))) {
     return input + "way";
+  } else if ((charArray.length > 1) && ((charArray[0] === "a") || (charArray[0] === "e") || (charArray[0] === "i") || (charArray[0] === "o") || (charArray[0] === "u"))) {
+    return input + "way";
   } else {
     return input;
   }

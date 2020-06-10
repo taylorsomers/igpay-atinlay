@@ -44,7 +44,7 @@
     * Example Input: "b"
     * Example Output: "b"
 
-  * The program recognizes vowels to which Pig Latin rules apply, regardless of capitalization (a, A; e, E; i, I; o, O; u, U).
+  * The program recognizes vowels to which Pig Latin rules apply, regardless of capitalization (a, A; e, E; i, I; o, O; u, U)
     * Example Input: "A"
     * Example Output: "1"
     * Example Input: "B"
@@ -63,14 +63,16 @@
     * Example Output: "E"
   
   * The program adds "way" to single-letter words that consist of a vowel.
-    * Example Input: "i"
-    * Example Output: "iway"
+    * Example Input: "a"
+    * Example Output: "away"
 
   * The program adds "way" to single-letter words that consist of a vowel, regardless of capitalization.
-    * Example Input: "I"
-    * Example Output: "Iway"
+    * Example Input: "A"
+    * Example Output: "Away"
 
   * The program adds "way" to multiple-letter words that begin with a vowel.
+    * Example Input: "aardvark"
+    * Example Output: "aardvarkway"
 
   * The program adds "way" to multiple-letter words that begin with a vowel, regardless of upper- or lower-case capitalization of the first letter.
 
