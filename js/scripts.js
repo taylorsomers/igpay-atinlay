@@ -3,7 +3,7 @@
 function translate(input) {
   charArray = input.split("");
   if ((charArray.length === 1) && ((input === "a") || (input === "A") || (input === "i") || (input === "I") || (input === "o") || (input === "O"))) {
-    return "1";
+    return input + "way";
   } else {
     return input;
   }
