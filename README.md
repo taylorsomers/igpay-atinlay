@@ -1,23 +1,30 @@
-# [Program Title]
+# Igpay Atinlay
 
-  ### By [Author(s)]
+  ### By Taylor Somers
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch]
+  A website that translates words users input into Pig Latin. While unfinished as of initial publish date, it demonstrates some of the useful knowlege of HTML, JavaScript, jQuery, and JavaScript arrays I have learned so far at Epicodus.
 
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * HTML
+  * JavaScript
+  * jQuery
+  * Markdown
 
   ### Operating Systems & Programs
-  * [Unordered List]
+  * Git Bash
+  * Google Chrome
+  * Microsoft Windows 10
+  * Mozilla Firefox
+  * Visual Studio Code
 
 ## Installation
 
   1. Download a web browser, such as Apple Safari, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2. Navigate to https://github.com/taylorsomers/[repository].
+  2. Navigate to https://github.com/taylorsomers/igpay-atinlay.
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
@@ -128,11 +135,12 @@
 
 ## Known Bugs
 
-  * No known bugs at this time. If any are discovered, please feel free to reach out and let me know. If you would like to contribute any fixes or improvements, please do!
+  * The project is unfinished at publishing date, so it does not yet execute all specifications listed in the spec sheet. If any bugs with the hitherto developed code are discovered, please feel free to reach out and let me know. If you would like to contribute any fixes or improvements, please do!
 
 ### Contributors
 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Taylor Somers
+  * Beverly Potts
 
 ### License
 
