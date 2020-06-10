@@ -45,6 +45,10 @@
     * Example Output: "b"
 
   * The program recognizes vowels to which Pig Latin rules apply, regardless of capitalization (a, A; e, E; i, I; o, O; u, U).
+    * Example Input: "A"
+    * Example Output: "1"
+    * Example Input: "B"
+    * Example Output: "B"
 
   * The program does nothing to single-letters consisting of a vowel if they are not "a", "i", or "o".
 

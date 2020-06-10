@@ -1,7 +1,7 @@
 // Business Logic:
 
 function translate(input) {
-  if ((input === "a") || (input === "e") || (input === "i") || (input === "o") || (input === "u")) {
+  if ((input === "a") || (input === "A") || (input === "e") || (input === "E") || (input === "i") || (input === "I") || (input === "o") || (input === "O") || (input === "u") || (input === "U")) {
     return "1";
   } else {
     return input;
