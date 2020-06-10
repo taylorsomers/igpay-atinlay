@@ -1,8 +1,7 @@
 // Business Logic:
 
 function translate(input) {
-  const output = input;
-  return output;
+  return input;
 }
 // End Business Logic
 
